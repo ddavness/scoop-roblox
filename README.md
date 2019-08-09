@@ -4,6 +4,8 @@
 
 <h2><p align = center>Seriously. Don't waste your time configuring your PATH.</p></h2>
 
+<img align=center src="media/installDemo.png">
+
 This bucket contains awesome applications made by the Roblox community targeted to Roblox development. All you need to do to get them is run a command, and no worries about setting up complicated stuff.
 
 <details>
@@ -24,7 +26,7 @@ Read more at https://scoop.sh.
 | `alpha-utils` | Helps fixing black edges on `.png` images before uploading to Roblox | [urraka/alpha-bleeding](https://github.com/urraka/alpha-bleeding) (source); [ddavness/alpha-utils](https://github.com/urraka/alpha-utils) (Windows binaries)
 | `rojo` | Allows for code to be synchronized between Roblox Studio and an external filesystem (For example, a Git repo) - installs pre-release version (`0.5.x`) | [rojo-rbx/rojo](https://github.com/rojo-rbx/rojo) |
 | `rojo04` | Installs Rojo `0.4.3` | [rojo-rbx/rojo](https://github.com/rojo-rbx/rojo) |
-| `prepare-skybox` | Prepares skyboxes made with spacescape and exported with Unity settings to be uploaded for Roblox. | [ddavness/spacescape-roblox-converter](https://github.com/ddavness/spacescape-roblox-converter) |
+| `spacescape-roblox-converter` | Prepares skyboxes made with spacescape and exported with Unity settings to be uploaded for Roblox. | [ddavness/spacescape-roblox-converter](https://github.com/ddavness/spacescape-roblox-converter) |
 
 ## Notes:
 
