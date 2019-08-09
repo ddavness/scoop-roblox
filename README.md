@@ -28,6 +28,24 @@ Read more at https://scoop.sh.
 | `rojo04` | Installs Rojo `0.4.3` | [rojo-rbx/rojo](https://github.com/rojo-rbx/rojo) |
 | `spacescape-roblox-converter` | Prepares skyboxes made with spacescape and exported with Unity settings to be uploaded for Roblox. | [ddavness/spacescape-roblox-converter](https://github.com/ddavness/spacescape-roblox-converter) |
 
+## Contributing:
+
+**You are free to suggest applications to the repository!**
+
+**Create an issue on apps you'd like to add:**
+
+- **Things you need to keep in mind:**
+
+- - The application must to be able to run on Windows, *ideally* without any dependencies (doesn't mean it mustn't have any - `alpha-utils` needs a Visual C++ Runtime);
+
+- - The application should be made by the Roblox community for the Roblox community;
+
+- - The application is portable - just run the `.exe` file.
+
+**You can also add a PR to add your own manifest!**
+
+- Please read [this article](https://github.com/lukesampson/scoop/wiki/App-Manifests) about app manifests in Scoop.
+
 ## Notes:
 
 - The license of this scoop bucket only applies to the bucket itself (the manifests) - the applications themselves have their own licenses.
