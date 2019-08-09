@@ -1,0 +1,22 @@
+{
+	"version": "1.0.0-windows",
+	"description": "A lightweight tool to bleed alpha (and fix black outlines) on images before importing them to Roblox.",
+	"homepage": "https://github.com/ddavness/alpha-utils",
+	"license": "MIT", 
+	"url": "https://github.com/ddavness/alpha-utils/releases/download/1.0.0-windows/bin.zip",
+	"hash": "sha256:bd64c6c5fe8a6b07c26e36a5d675e7ae1805fae26e820c85de45940174a13b54",
+	"bin": [
+		"alpha-bleeding.exe",
+		["alpha-bleeding.exe", "alpha-bleed"],
+		"alpha-remove.exe",
+		"alpha-set.exe"
+	],
+	"checkver": {
+        "url": "https://github.com/ddavness/spacescape-roblox-converter/releases",
+        "regex": ">[v|V]?(?<CHKVER>(0|[1-9][\\d]*)\\.(0|[1-9][\\d]*)\\.(0|[1-9][\\d]*)((-([\\dA-Za-z]+(\\.([\\dA-Za-z]+((\\+([\\dA-Za-z-]+\\.)*)(([\\dA-Za-z-]+)))?)?)?)?)?))<"
+	},
+	"autoupdate": {
+		"url": "https://github.com/ddavness/spacescape-roblox-converter/releases/download/v${matchCHKVER}/skybox-convert.ps1"
+	},
+	"depends": ["extras/vcredist2019"]
+}
