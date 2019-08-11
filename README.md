@@ -34,13 +34,15 @@ Read more at https://scoop.sh.
 
 **Create an issue on apps you'd like to add:**
 
-- **Things you need to keep in mind:**
+- **Things you need to keep in mind (this is not strict, but recommended):**
 
 - - The application must to be able to run on Windows, *ideally* without any dependencies (doesn't mean it mustn't have any - `alpha-utils` needs a Visual C++ Runtime);
 
 - - The application should be made by the Roblox community for the Roblox community;
 
 - - The application is portable - just run the `.exe` file.
+
+- - You should tell whether the program works for both 32bit and 64bit Windows versions, and if so, whether there are separate versions for each architecture.
 
 **You can also add a PR to add your own manifest!**
 
