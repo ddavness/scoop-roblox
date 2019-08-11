@@ -5,11 +5,11 @@
     </a>
 </p>
 
-`scoop bucket add rbxdev 'https://github.com/ddavness/scoop-RobloxDev.git'`
+<p align = center><code>scoop bucket add rbxdev 'https://github.com/ddavness/scoop-RobloxDev.git'</code></p>
 
 <h2><p align = center>Seriously. Don't waste your time configuring your PATH.</p></h2>
 
-<img align=center src="https://i.imgur.com/iGVnKIk.png">
+<p align = center><img src="https://i.imgur.com/iGVnKIk.png"></p>
 
 This bucket contains awesome applications made by the Roblox community targeted to Roblox development. All you need to do to get them is run a command, and no worries about setting up complicated stuff.
 
