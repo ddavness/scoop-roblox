@@ -7,11 +7,11 @@
 
 <p align = center><code>scoop bucket add rbxdev 'https://github.com/ddavness/scoop-RobloxDev.git'</code></p>
 
-<h2><p align = center>Seriously. Don't waste your time configuring your PATH.</p></h2>
+<h2><p align = center>The best community tools, at your fingertips.</p></h2>
 
 <p align = center><img src="https://i.imgur.com/iGVnKIk.png"></p>
 
-This bucket contains awesome applications made by the Roblox community targeted to Roblox development. All you need to do to get them is run a command, and no worries about setting up complicated stuff.
+This bucket contains awesome applications made by the Roblox community targeted to Roblox development. All you need to do to get them is run a command, and no worries about setting up complicated stuff (like the PATH).
 
 <details>
 <summary>What's Scoop?</summary>
@@ -27,11 +27,13 @@ Read more at https://scoop.sh
 ## Applications in this bucket
 
 | Application | Description | Repository |
-| ----------- | ----------- | ------ |
-| `alpha-utils` | Helps fixing black edges on `.png` images before uploading to Roblox | [urraka/alpha-bleeding](https://github.com/urraka/alpha-bleeding) (source); [ddavness/alpha-utils](https://github.com/urraka/alpha-utils) (Windows binaries)
+| ----------- | ----------- | ---------- |
+| `alpha-utils` | Helps fixing black edges on `.png` images before uploading to Roblox. | [urraka/alpha-bleeding](https://github.com/urraka/alpha-bleeding) (source); [ddavness/alpha-utils](https://github.com/urraka/alpha-utils) (Windows binaries)
 | `rojo` | Allows for code to be synchronized between Roblox Studio and an external filesystem (For example, a Git repo) - installs pre-release version (`0.5.x`) | [rojo-rbx/rojo](https://github.com/rojo-rbx/rojo) |
-| `rojo04` | Installs Rojo `0.4.3` | [rojo-rbx/rojo](https://github.com/rojo-rbx/rojo) |
+| `rojo04` | Installs Rojo `0.4.13` | [rojo-rbx/rojo](https://github.com/rojo-rbx/rojo) |
 | `spacescape-roblox-converter` | Prepares skyboxes made with spacescape and exported with Unity settings to be uploaded for Roblox. | [ddavness/spacescape-roblox-converter](https://github.com/ddavness/spacescape-roblox-converter) |
+| `rbxlx-to-rojo` | Quickly converts your Roblox place into a Rojo filesystem. | [rojo-rbx/rbxlx-to-rojo](https://github.com/rojo-rbx/rbxlx-to-rojo) |
+| `rbxfpsunlocker` | Removes the Roblox's framerate cap - useful for high refresh rate monitors. | [axstin/rbxfpsunlocker](https://github.com/axstin/rbxfpsunlocker) |
 
 ## Contributing
 
