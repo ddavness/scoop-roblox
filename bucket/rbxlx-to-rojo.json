@@ -20,6 +20,8 @@
 	"suggest": {
 		"Rojo": "rojo"
 	},
-	"notes": {
-	}
+	"notes": [
+		"You will need at least Rojo 0.5.0-alpha.12 to be able to use the generated filesystem.",
+		"You can run 'scoop install rojo' to install it, if you didn't do so already."
+	]
 }
