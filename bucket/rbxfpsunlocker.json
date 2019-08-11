@@ -17,6 +17,9 @@
 		"rbxfpsunlocker.exe",
 		["rbxfpsunlocker.exe", "fpsunlocker"]
 	],
+	"shortcuts": [
+		["rbxfpsunlocker.exe", "Roblox FPS Unlocker"]
+	],
 	"checkver": {
 		"url": "https://github.com/axstin/rbxfpsunlocker/releases/latest",
 		"regex": ">[v|V]?(?<CHKVER>(0|[1-9][\\d]*)\\.(0|[1-9][\\d]*)\\.(0|[1-9][\\d]*)((-([\\dA-Za-z]+(\\.([\\dA-Za-z]+((\\+([\\dA-Za-z-]+\\.)*)(([\\dA-Za-z-]+)))?)?)?)?)?))<"
