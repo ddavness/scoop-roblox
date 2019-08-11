@@ -1,3 +1,8 @@
+only_commits:
+  files:
+    - 'bucket/*.json'
+    - 'bin/*.ps1'
+
 skip_commits:
   files:
     - '**/*.md'
@@ -9,7 +14,7 @@ cache:
 matrix:
   fast_finish: true
 build: 'off'
-image: Visual Studio 2017
+image: Visual Studio 2019
 environment:
   SCOOP: C:\projects\scoop
   SCOOP_HOME: C:\projects\scoop\apps\scoop\current
