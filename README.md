@@ -1,4 +1,9 @@
 <h1><p align = center>RobloxDev Bucket for Scoop</p></h1>
+<p align = center>
+    <a href="https://ci.appveyor.com/project/ddavness/scoop-robloxdev">
+        <img src="https://ci.appveyor.com/api/projects/status/29tx04xjufocxi1g?svg=true">
+    </a>
+</p>
 
 `scoop bucket add rbxdev 'https://github.com/ddavness/scoop-RobloxDev.git'`
 
