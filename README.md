@@ -15,11 +15,11 @@ If you ever used Linux, Scoop will be familiar to you. Scoop is a CLI installer 
 
 It makes installing applications a whole level of degree easier. Instead of having to go through multiple installers, all you need to do is a couple commands.
 
-Read more at https://scoop.sh.
+Read more at https://scoop.sh
 
 </details>
 
-## Applications in this bucket:
+## Applications in this bucket
 
 | Application | Description | Repository |
 | ----------- | ----------- | ------ |
@@ -28,7 +28,7 @@ Read more at https://scoop.sh.
 | `rojo04` | Installs Rojo `0.4.3` | [rojo-rbx/rojo](https://github.com/rojo-rbx/rojo) |
 | `spacescape-roblox-converter` | Prepares skyboxes made with spacescape and exported with Unity settings to be uploaded for Roblox. | [ddavness/spacescape-roblox-converter](https://github.com/ddavness/spacescape-roblox-converter) |
 
-## Contributing:
+## Contributing
 
 **You are free to suggest applications to the repository!**
 
@@ -48,7 +48,7 @@ Read more at https://scoop.sh.
 
 - Please read [this article](https://github.com/lukesampson/scoop/wiki/App-Manifests) about app manifests in Scoop.
 
-## Notes:
+## Notes
 
 - The license of this scoop bucket only applies to the bucket itself (the manifests) - the applications themselves have their own licenses.
 
