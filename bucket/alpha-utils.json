@@ -12,8 +12,8 @@
 		"alpha-set.exe"
 	],
 	"checkver": {
-        "url": "https://github.com/ddavness/spacescape-roblox-converter/releases",
-        "regex": ">[v|V]?(?<CHKVER>(0|[1-9][\\d]*)\\.(0|[1-9][\\d]*)\\.(0|[1-9][\\d]*)((-([\\dA-Za-z]+(\\.([\\dA-Za-z]+((\\+([\\dA-Za-z-]+\\.)*)(([\\dA-Za-z-]+)))?)?)?)?)?))<"
+		"url": "https://github.com/ddavness/spacescape-roblox-converter/releases",
+		"regex": ">[v|V]?(?<CHKVER>(0|[1-9][\\d]*)\\.(0|[1-9][\\d]*)\\.(0|[1-9][\\d]*)((-([\\dA-Za-z]+(\\.([\\dA-Za-z]+((\\+([\\dA-Za-z-]+\\.)*)(([\\dA-Za-z-]+)))?)?)?)?)?))<"
 	},
 	"autoupdate": {
 		"url": "https://github.com/ddavness/spacescape-roblox-converter/releases/download/v${matchCHKVER}/skybox-convert.ps1"
