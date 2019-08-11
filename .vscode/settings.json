@@ -41,4 +41,6 @@
             "open": true,
         },
     ],
+    "editor.detectIndentation": false,
+    "editor.tabSize": 2,
 }
