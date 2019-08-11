@@ -13,10 +13,11 @@
   ],
   "checkver": {
     "url": "https://github.com/ddavness/spacescape-roblox-converter/releases",
-    "regex": ">[v|V]?(?<CHKVER>(0|[1-9][\\d]*)\\.(0|[1-9][\\d]*)\\.(0|[1-9][\\d]*)((-([\\dA-Za-z]+(\\.([\\dA-Za-z]+((\\+([\\dA-Za-z-]+\\.)*)(([\\dA-Za-z-]+)))?)?)?)?)?))<"
+    "regex": ">[v|V]?(?<CHKVER>(0|[1-9][\\d]*)\\.(0|[1-9][\\d]*)\\.(0|[1-9][\\d]*)((-([\\dA-Za-z]+(\\.([\\dA-Za-z]+((\\+([\\dA-Za-z-]+\\.)*)(([\\dA-Za-z-]+)))?)?)?)?)?))<",
+    "replace": "${matchCHKVER}"
   },
   "autoupdate": {
-    "url": "https://github.com/ddavness/spacescape-roblox-converter/releases/download/v${matchCHKVER}/skybox-convert.ps1"
+    "url": "https://github.com/ddavness/spacescape-roblox-converter/releases/download/v$version/skybox-convert.ps1"
   },
   "depends": ["extras/vcredist2019"]
 }
