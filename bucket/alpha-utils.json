@@ -12,12 +12,12 @@
     "alpha-set.exe"
   ],
   "checkver": {
-    "url": "https://github.com/ddavness/spacescape-roblox-converter/releases",
-    "regex": ">[v|V]?(?<CHKVER>(0|[1-9][\\d]*)\\.(0|[1-9][\\d]*)\\.(0|[1-9][\\d]*)((-([\\dA-Za-z]+(\\.([\\dA-Za-z]+((\\+([\\dA-Za-z-]+\\.)*)(([\\dA-Za-z-]+)))?)?)?)?)?))<",
-    "replace": "${matchCHKVER}"
+    "url": "https://github.com/ddavness/alpha-utils/releases",
+    "regex": ">((((0|[1-9][\\d]*)\\.)+)(0|[1-9][\\d]*)((-([\\dA-Za-z]+(\\.([\\dA-Za-z]+((\\+([\\dA-Za-z-]+\\.)*)(([\\dA-Za-z-]+)))?)?)?)?)?))<",
+    "replace": "${1}"
   },
   "autoupdate": {
-    "url": "https://github.com/ddavness/spacescape-roblox-converter/releases/download/v$version/skybox-convert.ps1"
+    "url": "https://github.com/ddavness/alpha-utils/releases/download/v$version/skybox-convert.ps1"
   },
   "depends": ["extras/vcredist2019"]
 }

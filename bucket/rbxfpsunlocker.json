@@ -22,7 +22,7 @@
   ],
   "checkver": {
     "url": "https://github.com/axstin/rbxfpsunlocker/releases/latest",
-    "regex": ">[v|V]?(?<CHKVER>(0|[1-9][\\d]*)\\.(0|[1-9][\\d]*)\\.(0|[1-9][\\d]*)((-([\\dA-Za-z]+(\\.([\\dA-Za-z]+((\\+([\\dA-Za-z-]+\\.)*)(([\\dA-Za-z-]+)))?)?)?)?)?))<",
-    "replace": "${matchCHKVER}"
+    "regex": ">v((((0|[1-9][\\d]*)\\.)+)(0|[1-9][\\d]*)((-([\\dA-Za-z]+(\\.([\\dA-Za-z]+((\\+([\\dA-Za-z-]+\\.)*)(([\\dA-Za-z-]+)))?)?)?)?)?))<",
+    "replace": "${1}"
   }
 }
