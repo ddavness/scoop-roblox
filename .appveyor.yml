@@ -8,7 +8,6 @@ skip_commits:
     - '**/*.md'
     - 'README.md'
     - '.vscode/**/*'
-    - 'media/*'
 cache:
   - '%USERPROFILE%\Documents\WindowsPowerShell\Modules -> .appveyor.yml'
 matrix:
