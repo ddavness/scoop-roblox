@@ -1,9 +1,12 @@
-<h1><p align = center>RobloxDev Bucket for Scoop</p></h1>
+<h1><p align = center>RobloxDev Bucket for <a href="https://scoop.sh">Scoop</a></p></h1>
+
 <p align = center>
     <a href="https://ci.appveyor.com/project/ddavness/scoop-robloxdev">
         <img src="https://ci.appveyor.com/api/projects/status/29tx04xjufocxi1g?svg=true">
     </a>
 </p>
+
+<img alt="Custom badge" src="https://img.shields.io/endpoint?logoColor=grey">
 
 <p align = center><code>scoop bucket add rbxdev 'https://github.com/ddavness/scoop-RobloxDev.git'</code></p>
 
