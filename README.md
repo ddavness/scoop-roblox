@@ -2,11 +2,12 @@
 
 <p align = center>
     <a href="https://ci.appveyor.com/project/ddavness/scoop-robloxdev">
-        <img src="https://ci.appveyor.com/api/projects/status/29tx04xjufocxi1g?svg=true">
+        <img src="https://ci.appveyor.com/api/projects/status/29tx04xjufocxi1g?svg=true" height=30>
+    </a>
+    <a>
+        <img alt="Custom badge" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fddavness%2Fscoop-RobloxDev%2FREADME%2F.appcountbadge.json" height=30>
     </a>
 </p>
-
-<img alt="Custom badge" src="https://img.shields.io/endpoint?logoColor=grey">
 
 <p align = center><code>scoop bucket add rbxdev 'https://github.com/ddavness/scoop-RobloxDev.git'</code></p>
 
