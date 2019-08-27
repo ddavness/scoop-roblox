@@ -1,12 +1,12 @@
 {
-  "version": "0.5.0-alpha.13",
+  "version": "0.5.0",
   "description": "A tool designed to enable Roblox developers to use professional-grade software engineering tools.",
   "homepage": "https://rojo.space/",
   "license": "MPL-2.0",
   "architecture": {
     "64bit": {
-      "url": "https://github.com/rojo-rbx/rojo/releases/download/v0.5.0-alpha.13/rojo.exe",
-      "hash": "sha256:21e4078ab13393f1fe0ba3783d5563a42a78a780cdade047bc7f4f888e2b126a"
+      "url": "https://github.com/rojo-rbx/rojo/releases/download/v0.5.0/rojo.exe",
+      "hash": "sha256:2361c33cac4f01fcfad424548c41aa30237714404b923ab38dbcd2d59a2f8f24"
     }
   },
   "bin": "rojo.exe",
