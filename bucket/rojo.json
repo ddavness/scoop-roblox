@@ -1,21 +1,21 @@
 {
-  "version": "0.5.0",
-  "description": "A tool designed to enable Roblox developers to use professional-grade software engineering tools.",
-  "homepage": "https://rojo.space/",
-  "license": "MPL-2.0",
-  "architecture": {
-    "64bit": {
-      "url": "https://github.com/rojo-rbx/rojo/releases/download/v0.5.0/rojo.exe",
-      "hash": "sha256:2361c33cac4f01fcfad424548c41aa30237714404b923ab38dbcd2d59a2f8f24"
+    "version": "0.5.0",
+    "description": "A tool designed to enable Roblox developers to use professional-grade software engineering tools.",
+    "homepage": "https://rojo.space/",
+    "license": "MPL-2.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/rojo-rbx/rojo/releases/download/v0.5.0/rojo.exe",
+            "hash": "sha256:2361c33cac4f01fcfad424548c41aa30237714404b923ab38dbcd2d59a2f8f24"
+        }
+    },
+    "bin": "rojo.exe",
+    "checkver": {
+        "url": "https://github.com/rojo-rbx/rojo/releases",
+        "regex": ">v((((0|[1-9][\\d]*)\\.)+)(0|[1-9][\\d]*)((-([\\dA-Za-z]+(\\.([\\dA-Za-z]+((\\+([\\dA-Za-z-]+\\.)*)(([\\dA-Za-z-]+)))?)?)?)?)?))<",
+        "replace": "${1}"
+    },
+    "autoupdate": {
+        "url": "https://github.com/rojo-rbx/rojo/releases/download/v$version/rojo.exe"
     }
-  },
-  "bin": "rojo.exe",
-  "checkver": {
-    "url": "https://github.com/rojo-rbx/rojo/releases",
-    "regex": ">v((((0|[1-9][\\d]*)\\.)+)(0|[1-9][\\d]*)((-([\\dA-Za-z]+(\\.([\\dA-Za-z]+((\\+([\\dA-Za-z-]+\\.)*)(([\\dA-Za-z-]+)))?)?)?)?)?))<",
-    "replace": "${1}"
-  },
-  "autoupdate": {
-    "url": "https://github.com/rojo-rbx/rojo/releases/download/v$version/rojo.exe"
-  }
 }

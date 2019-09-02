@@ -1,28 +1,34 @@
 {
-  "version": "4.1",
-  "description": "A small tool that removes Roblox's default 60 FPS cap.",
-  "homepage": "https://github.com/axstin/rbxfpsunlocker",
-  "license": "Unknown",
-  "architecture": {
-    "32bit": {
-      "url": "https://github.com/axstin/rbxfpsunlocker/files/3483933/rbxfpsunlocker-x86.zip",
-      "hash": "sha256:4a35c3ad79428447c208c1f6837ff46b440d0121b2f3bae748950f20db17c6ff"
+    "version": "4.1",
+    "description": "A small tool that removes Roblox's default 60 FPS cap.",
+    "homepage": "https://github.com/axstin/rbxfpsunlocker",
+    "license": "Unknown",
+    "architecture": {
+        "32bit": {
+            "url": "https://github.com/axstin/rbxfpsunlocker/files/3483933/rbxfpsunlocker-x86.zip",
+            "hash": "sha256:4a35c3ad79428447c208c1f6837ff46b440d0121b2f3bae748950f20db17c6ff"
+        },
+        "64bit": {
+            "url": "https://github.com/axstin/rbxfpsunlocker/files/3483931/rbxfpsunlocker-x64.zip",
+            "hash": "sha256:f5d67b8e045ebae61c4de2b1e06b295ed31d55961f34acbb30046e9d2661d4a3"
+        }
     },
-    "64bit": {
-      "url": "https://github.com/axstin/rbxfpsunlocker/files/3483931/rbxfpsunlocker-x64.zip",
-      "hash": "sha256:f5d67b8e045ebae61c4de2b1e06b295ed31d55961f34acbb30046e9d2661d4a3"
+    "bin": [
+        "rbxfpsunlocker.exe",
+        [
+            "rbxfpsunlocker.exe",
+            "fpsunlocker"
+        ]
+    ],
+    "shortcuts": [
+        [
+            "rbxfpsunlocker.exe",
+            "Roblox FPS Unlocker"
+        ]
+    ],
+    "checkver": {
+        "url": "https://github.com/axstin/rbxfpsunlocker/releases/latest",
+        "regex": ">v((((0|[1-9][\\d]*)\\.)+)(0|[1-9][\\d]*)((-([\\dA-Za-z]+(\\.([\\dA-Za-z]+((\\+([\\dA-Za-z-]+\\.)*)(([\\dA-Za-z-]+)))?)?)?)?)?))<",
+        "replace": "${1}"
     }
-  },
-  "bin": [
-    "rbxfpsunlocker.exe",
-    ["rbxfpsunlocker.exe", "fpsunlocker"]
-  ],
-  "shortcuts": [
-    ["rbxfpsunlocker.exe", "Roblox FPS Unlocker"]
-  ],
-  "checkver": {
-    "url": "https://github.com/axstin/rbxfpsunlocker/releases/latest",
-    "regex": ">v((((0|[1-9][\\d]*)\\.)+)(0|[1-9][\\d]*)((-([\\dA-Za-z]+(\\.([\\dA-Za-z]+((\\+([\\dA-Za-z-]+\\.)*)(([\\dA-Za-z-]+)))?)?)?)?)?))<",
-    "replace": "${1}"
-  }
 }
