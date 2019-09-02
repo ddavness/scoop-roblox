@@ -1,0 +1,45 @@
+{
+    "version": "1.0.4",
+    "description": "A Discord Rich Presence for Roblox.",
+    "homepage": "https://github.com/JiveOff/roPresence",
+    "license": "MIT",
+    "architecture": {
+        "32bit": {
+            "url": "https://github.com/ddavness/roPresence/releases/download/1.0.4/roPresence-x86.7z",
+            "hash": "sha256:f1b21a6b06e504ee1eb427079fc637a0d48a5b979c0f2bee9be150c4f06f3ff6"
+        },
+        "64bit": {
+            "url": "https://github.com/ddavness/roPresence/releases/download/1.0.4/roPresence-x64.7z",
+            "hash": "sha256:a290d49e752af3329e322b968f0eab0380747c6b17721ce822b9842503501106"
+        }
+    },
+    "bin": "roPresence.exe",
+    "shortcuts": [
+        [
+            "roPresence.exe",
+            "roPresence"
+        ],
+        [
+            "notepad config.json",
+            "roPresence-config"
+        ]
+    ],
+    "checkver": {
+        "url": "https://github.com/ddavness/roPresence/releases",
+        "regex": ">((((0|[1-9][\\d]*)\\.)+)(0|[1-9][\\d]*)((-([\\dA-Za-z]+(\\.([\\dA-Za-z]+((\\+([\\dA-Za-z-]+\\.)*)(([\\dA-Za-z-]+)))?)?)?)?)?))<",
+        "replace": "${1}"
+    },
+    "autoupdate": {
+        "architecture": {
+            "32bit": {
+                "url": "https://github.com/ddavness/roPresence/releases/$version/roPresence-x86.7z"
+            },
+            "64bit": {
+                "url": "https://github.com/ddavness/roPresence/releases/$version/roPresence-x64.7z"
+            }
+        }
+    },
+    "suggest": {
+        "Discord": "extras/discord"
+    }
+}

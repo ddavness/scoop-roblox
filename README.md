@@ -36,6 +36,7 @@ Read more at https://scoop.sh
 | `rojo` | Allows for code to be synchronized between Roblox Studio and an external filesystem (For example, a Git repo) - installs pre-release version (`0.5.x`) | [rojo-rbx/rojo](https://github.com/rojo-rbx/rojo) |
 | `rojo04` | Installs Rojo `0.4.13` (EOL) | [rojo-rbx/rojo](https://github.com/rojo-rbx/rojo) |
 | `spacescape-roblox-converter` | Prepares skyboxes made with spacescape and exported with Unity settings to be uploaded for Roblox. | [ddavness/spacescape-roblox-converter](https://github.com/ddavness/spacescape-roblox-converter) |
+| `roPresence` | A Discord Rich Presence for Roblox. | |
 | `rbxlx-to-rojo` | Quickly converts your Roblox place into a Rojo filesystem. | [rojo-rbx/rbxlx-to-rojo](https://github.com/rojo-rbx/rbxlx-to-rojo) |
 | `rbxfpsunlocker` | Removes the Roblox's framerate cap - useful for high refresh rate monitors. | [axstin/rbxfpsunlocker](https://github.com/axstin/rbxfpsunlocker) |
 
