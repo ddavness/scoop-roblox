@@ -15,11 +15,7 @@
     },
     "bin": [
         "roPresence.exe",
-        "roPresence-config.ps1",
-        [
-            "notepad config.json",
-            "roPresence-ntpd"
-        ]
+        "roPresence-config.ps1"
     ],
     "shortcuts": [
         [
