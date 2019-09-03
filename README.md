@@ -32,11 +32,11 @@ Read more at https://scoop.sh
 
 | Application | Description | Repository |
 | ----------- | ----------- | ---------- |
-| `alpha-utils` | Helps fixing black edges on `.png` images before uploading to Roblox. | [urraka/alpha-bleeding](https://github.com/urraka/alpha-bleeding) (source); [ddavness/alpha-utils](https://github.com/urraka/alpha-utils) (Windows binaries)
+| `alpha-utils` | Helps fixing black edges on `.png` images before uploading to Roblox. | [urraka/alpha-bleeding](https://github.com/urraka/alpha-bleeding) (source); [ddavness/alpha-utils](https://github.com/ddavness/alpha-utils) (Windows binaries)
 | `rojo` | Allows for code to be synchronized between Roblox Studio and an external filesystem (For example, a Git repo) - installs pre-release version (`0.5.x`) | [rojo-rbx/rojo](https://github.com/rojo-rbx/rojo) |
 | `rojo04` | Installs Rojo `0.4.13` (EOL) | [rojo-rbx/rojo](https://github.com/rojo-rbx/rojo) |
 | `spacescape-roblox-converter` | Prepares skyboxes made with spacescape and exported with Unity settings to be uploaded for Roblox. | [ddavness/spacescape-roblox-converter](https://github.com/ddavness/spacescape-roblox-converter) |
-| `roPresence` | A Discord Rich Presence for Roblox. | |
+| `roPresence` | A Discord Rich Presence for Roblox. | [JiveOff/roPresence](https://github.com/Jiveoff/roPresence) (Original editions); [ddavness/roPresence](https://github.com/ddavness/roPresence) (Scoop-tailored editions) |
 | `rbxlx-to-rojo` | Quickly converts your Roblox place into a Rojo filesystem. | [rojo-rbx/rbxlx-to-rojo](https://github.com/rojo-rbx/rbxlx-to-rojo) |
 | `rbxfpsunlocker` | Removes the Roblox's framerate cap - useful for high refresh rate monitors. | [axstin/rbxfpsunlocker](https://github.com/axstin/rbxfpsunlocker) |
 
