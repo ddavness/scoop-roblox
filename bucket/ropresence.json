@@ -1,21 +1,20 @@
 {
-    "version": "1.0.4",
+    "version": "1.0.4-scoop.1",
     "description": "A Discord Rich Presence for Roblox.",
     "homepage": "https://github.com/JiveOff/roPresence",
     "license": "MIT",
     "architecture": {
         "32bit": {
-            "url": "https://github.com/ddavness/roPresence/releases/download/1.0.4/roPresence-x86.7z",
-            "hash": "sha256:0701d7dbcd2fb1098d2d0a0ecfd59afe7516031cf23747e0e4cb21e48800b057"
+            "url": "https://github.com/ddavness/roPresence/releases/download/1.0.4-scoop.1/roPresence-x86.7z",
+            "hash": "sha256:e75ad95feb6726256b27bb773ce4879f3445029fc38d666af711ac0e0358e159"
         },
         "64bit": {
-            "url": "https://github.com/ddavness/roPresence/releases/download/1.0.4/roPresence-x64.7z",
-            "hash": "sha256:aafac3a121a98ecd1ce5f6d4aa08321410c8d168b631c385a930702edace0011"
+            "url": "https://github.com/ddavness/roPresence/releases/download/1.0.4-scoop.1/roPresence-x64.7z",
+            "hash": "sha256:39412da0f1147c06003806e68c030d8bf0b648cac363c28e3ef52c1310fe8451"
         }
     },
     "bin": [
-        "roPresence.exe",
-        "roPresence-config.ps1"
+        "roPresence.exe"
     ],
     "shortcuts": [
         [
@@ -40,5 +39,9 @@
     },
     "suggest": {
         "Discord": "extras/discord"
-    }
+    },
+    "notes": [
+        "This version of roPresence has added features that allow you to interact with the configuration files faster.",
+        "Run \"ropresence help\" for a list of possible commands."
+    ]
 }
