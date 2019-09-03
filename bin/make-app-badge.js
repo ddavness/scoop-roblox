@@ -1,11 +1,13 @@
 const fs = require("fs")
+const path = require("path")
+
 const content = {
     "schemaVersion": 1,
     "label": "Applications",
     "color": "00A1FF"
 }
 
-fs.readdir('./../bucket', {"withFileTypes": true}, (err, ret) => {
+fs.readdir(path.join(__dirname, "./../bucket"), {"withFileTypes": true}, (err, ret) => {
     if (err) {
         throw err
     }
@@ -26,7 +28,7 @@ fs.readdir('./../bucket', {"withFileTypes": true}, (err, ret) => {
     console.log(`\n✔️  Manifests Counted: ${count}\n❌  Foreign Objects Counted: ${failed}`)
 
     content["message"] = count.toString()
-    fs.writeSync(fs.openSync('./../.appcountbadge.json', 'w'), JSON.stringify(content) + "\n")
+    fs.writeSync(fs.openSync("./../.appcountbadge.json", "w"), JSON.stringify(content) + "\n")
 
     console.log("Done.")
     process.exit()
