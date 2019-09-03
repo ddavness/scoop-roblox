@@ -6,22 +6,25 @@
     "architecture": {
         "32bit": {
             "url": "https://github.com/ddavness/roPresence/releases/download/1.0.4/roPresence-x86.7z",
-            "hash": "sha256:f1b21a6b06e504ee1eb427079fc637a0d48a5b979c0f2bee9be150c4f06f3ff6"
+            "hash": "sha256:0701d7dbcd2fb1098d2d0a0ecfd59afe7516031cf23747e0e4cb21e48800b057"
         },
         "64bit": {
             "url": "https://github.com/ddavness/roPresence/releases/download/1.0.4/roPresence-x64.7z",
-            "hash": "sha256:a290d49e752af3329e322b968f0eab0380747c6b17721ce822b9842503501106"
+            "hash": "sha256:aafac3a121a98ecd1ce5f6d4aa08321410c8d168b631c385a930702edace0011"
         }
     },
-    "bin": "roPresence.exe",
+    "bin": [
+        "roPresence.exe",
+        "roPresence-config.ps1",
+        [
+            "notepad config.json",
+            "roPresence-ntpd"
+        ]
+    ],
     "shortcuts": [
         [
             "roPresence.exe",
             "roPresence"
-        ],
-        [
-            "notepad config.json",
-            "roPresence-config"
         ]
     ],
     "checkver": {
