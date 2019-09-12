@@ -23,7 +23,7 @@
         ]
     ],
     "checkver": {
-        "url": "https://github.com/ddavness/roPresence/releases",
+        "url": "https://github.com/ddavness/roPresence-scoop/releases",
         "regex": ">v((((0|[1-9][\\d]*)\\.)+)(0|[1-9][\\d]*)((-([\\dA-Za-z]+(\\.([\\dA-Za-z]+((\\+([\\dA-Za-z-]+\\.)*)(([\\dA-Za-z-]+)))?)?)?)?)?))<",
         "replace": "${1}"
     },
