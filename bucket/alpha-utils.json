@@ -1,10 +1,10 @@
 {
-    "version": "1.0.0-windows",
+    "version": "1.0.0",
     "description": "A lightweight tool to bleed alpha (and fix black outlines) on images before importing them to Roblox.",
     "homepage": "https://github.com/ddavness/alpha-utils",
     "license": "MIT",
-    "url": "https://github.com/ddavness/alpha-utils/releases/download/1.0.0-windows/bin.zip",
-    "hash": "sha256:bd64c6c5fe8a6b07c26e36a5d675e7ae1805fae26e820c85de45940174a13b54",
+    "url": "https://github.com/ddavness/alpha-utils/releases/download/v1.0.0/alpha-utils.7z",
+    "hash": "sha256:e8e3270c3df31f0dc261d02041e46b393fddbc75beab7cba3b545efc1756e857",
     "bin": [
         "alpha-bleeding.exe",
         [
@@ -16,7 +16,7 @@
     ],
     "checkver": {
         "url": "https://github.com/ddavness/alpha-utils/releases",
-        "regex": ">((((0|[1-9][\\d]*)\\.)+)(0|[1-9][\\d]*)((-([\\dA-Za-z]+(\\.([\\dA-Za-z]+((\\+([\\dA-Za-z-]+\\.)*)(([\\dA-Za-z-]+)))?)?)?)?)?))<",
+        "regex": ">v((((0|[1-9][\\d]*)\\.)+)(0|[1-9][\\d]*)((-([\\dA-Za-z]+(\\.([\\dA-Za-z]+((\\+([\\dA-Za-z-]+\\.)*)(([\\dA-Za-z-]+)))?)?)?)?)?))<",
         "replace": "${1}"
     },
     "autoupdate": {
