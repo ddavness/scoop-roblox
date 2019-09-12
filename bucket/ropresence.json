@@ -5,11 +5,11 @@
     "license": "MIT",
     "architecture": {
         "32bit": {
-            "url": "https://github.com/ddavness/roPresence/releases/download/1.0.4-scoop.1/roPresence-x86.7z",
+            "url": "https://github.com/ddavness/roPresence-scoop/releases/download/v1.0.4-scoop.1/roPresence-x86.7z",
             "hash": "sha256:e75ad95feb6726256b27bb773ce4879f3445029fc38d666af711ac0e0358e159"
         },
         "64bit": {
-            "url": "https://github.com/ddavness/roPresence/releases/download/1.0.4-scoop.1/roPresence-x64.7z",
+            "url": "https://github.com/ddavness/roPresence-scoop/releases/download/v1.0.4-scoop.1/roPresence-x64.7z",
             "hash": "sha256:39412da0f1147c06003806e68c030d8bf0b648cac363c28e3ef52c1310fe8451"
         }
     },
@@ -24,16 +24,16 @@
     ],
     "checkver": {
         "url": "https://github.com/ddavness/roPresence/releases",
-        "regex": ">((((0|[1-9][\\d]*)\\.)+)(0|[1-9][\\d]*)((-([\\dA-Za-z]+(\\.([\\dA-Za-z]+((\\+([\\dA-Za-z-]+\\.)*)(([\\dA-Za-z-]+)))?)?)?)?)?))<",
+        "regex": ">v((((0|[1-9][\\d]*)\\.)+)(0|[1-9][\\d]*)((-([\\dA-Za-z]+(\\.([\\dA-Za-z]+((\\+([\\dA-Za-z-]+\\.)*)(([\\dA-Za-z-]+)))?)?)?)?)?))<",
         "replace": "${1}"
     },
     "autoupdate": {
         "architecture": {
             "32bit": {
-                "url": "https://github.com/ddavness/roPresence/releases/$version/roPresence-x86.7z"
+                "url": "https://github.com/ddavness/roPresence-scoop/releases/v$version/roPresence-x86.7z"
             },
             "64bit": {
-                "url": "https://github.com/ddavness/roPresence/releases/$version/roPresence-x64.7z"
+                "url": "https://github.com/ddavness/roPresence-scoop/releases/v$version/roPresence-x64.7z"
             }
         }
     },
