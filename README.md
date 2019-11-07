@@ -39,6 +39,7 @@ Read more at https://scoop.sh
 | `roPresence` | A Discord Rich Presence for Roblox. | [JiveOff/roPresence](https://github.com/Jiveoff/roPresence) (Original editions); [ddavness/roPresence](https://github.com/ddavness/roPresence) (Scoop-tailored editions) |
 | `rbxlx-to-rojo` | Quickly converts your Roblox place into a Rojo filesystem. | [rojo-rbx/rbxlx-to-rojo](https://github.com/rojo-rbx/rbxlx-to-rojo) |
 | `rbxfpsunlocker` | Removes the Roblox's framerate cap - useful for high refresh rate monitors. | [axstin/rbxfpsunlocker](https://github.com/axstin/rbxfpsunlocker) |
+| `selene` | A Lua linter made for Roblox developers. | [Kampfkarren/selene](https://github.com/Kampfkarren/selene) |
 
 ## Contributing
 
