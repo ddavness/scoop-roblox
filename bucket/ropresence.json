@@ -1,16 +1,12 @@
 {
-    "version": "1.0.4-scoop.1",
+    "version": "1.0.4+scoop.2",
     "description": "A Discord Rich Presence for Roblox.",
     "homepage": "https://github.com/JiveOff/roPresence",
     "license": "MIT",
     "architecture": {
-        "32bit": {
-            "url": "https://github.com/ddavness/roPresence-scoop/releases/download/v1.0.4-scoop.1/roPresence-x86.7z",
-            "hash": "sha256:e75ad95feb6726256b27bb773ce4879f3445029fc38d666af711ac0e0358e159"
-        },
         "64bit": {
-            "url": "https://github.com/ddavness/roPresence-scoop/releases/download/v1.0.4-scoop.1/roPresence-x64.7z",
-            "hash": "sha256:39412da0f1147c06003806e68c030d8bf0b648cac363c28e3ef52c1310fe8451"
+            "url": "https://github.com/ddavness/roPresence-scoop/releases/download/v1.0.4+scoop.2/roPresence-x64.7z",
+            "hash": "7c3dd9785084efa61f94469ef9fd1c5d77d00094715b2c7d81b2db2b43999231"
         }
     },
     "bin": [
@@ -24,14 +20,11 @@
     ],
     "checkver": {
         "url": "https://github.com/ddavness/roPresence-scoop/releases",
-        "regex": ">v((((0|[1-9][\\d]*)\\.)+)(0|[1-9][\\d]*)((-([\\dA-Za-z]+(\\.([\\dA-Za-z]+((\\+([\\dA-Za-z-]+\\.)*)(([\\dA-Za-z-]+)))?)?)?)?)?))<",
+        "regex": ">v((((0|[1-9][\\d]*)\\.)+)(0|[1-9][\\d]*)((\\+scoop\\.\\d+)))<",
         "replace": "${1}"
     },
     "autoupdate": {
         "architecture": {
-            "32bit": {
-                "url": "https://github.com/ddavness/roPresence-scoop/releases/v$version/roPresence-x86.7z"
-            },
             "64bit": {
                 "url": "https://github.com/ddavness/roPresence-scoop/releases/v$version/roPresence-x64.7z"
             }
