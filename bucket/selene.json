@@ -6,7 +6,7 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/Kampfkarren/selene/releases/download/0.4.0/selene.exe",
-            "hash": "fa235ab5a44269c9ef1c8c0697a4438a8affdacc073d2bb8e4d96aee9190bbd9"
+            "hash": "9b2d5d0cec2011c30d31b06fc4909810f3d0363b8e4392d55b3c709aa3be9135"
         }
     },
     "bin": "selene.exe",
