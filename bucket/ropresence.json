@@ -9,9 +9,7 @@
             "hash": "7c3dd9785084efa61f94469ef9fd1c5d77d00094715b2c7d81b2db2b43999231"
         }
     },
-    "bin": [
-        "roPresence.exe"
-    ],
+    "bin": "roPresence.exe",
     "shortcuts": [
         [
             "roPresence.exe",
