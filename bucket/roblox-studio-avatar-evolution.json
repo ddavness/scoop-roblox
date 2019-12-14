@@ -1,0 +1,26 @@
+{
+    "version": "0.413.0.370037",
+    "description": "Public preview of .",
+    "homepage": "https://roblox.github.io/avatar-evolution/",
+    "license": {
+        "identifier": "EULA",
+        "url": "https://github.com/Roblox/avatar-evolution/blob/master/LICENSE.md"
+    },
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/Roblox/avatar-evolution/releases/download/v0.413.0.370037/avatar-evolution-0.413.0.370037-windows-x64.zip",
+            "hash": "2ceda2e434f17f93fd9d6d12d89662aef76a599443444031d22f09a17d729789"
+        }
+    },
+    "shortcuts": [
+        [
+            "RobloxStudioBeta.exe",
+            "Roblox Studio (Avatar Evolution Preview)"
+        ]
+    ],
+    "checkver": {
+        "url": "https://github.com/Roblox/avatar-evolution/releases/latest",
+        "regex": ">v(\\d+\\.\\d+\\.\\d+\\.\\d+)<",
+        "replace": "${1}"
+    }
+}
