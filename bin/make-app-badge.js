@@ -28,7 +28,7 @@ fs.readdir(path.join(__dirname, "./../bucket"), {"withFileTypes": true}, (err, r
     console.log(`\n✔️  Manifests Counted: ${count}\n❌  Foreign Objects Counted: ${failed}`)
 
     content["message"] = count.toString()
-    fs.writeSync(fs.openSync("./../.appcountbadge.json", "w"), JSON.stringify(content) + "\n")
+    fs.writeSync(fs.openSync(".appcountbadge.json", "w"), JSON.stringify(content) + "\n")
 
     console.log("Done.")
     process.exit()
