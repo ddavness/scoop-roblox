@@ -1,12 +1,12 @@
 {
-    "version": "0.5.2",
+    "version": "0.5.3",
     "description": "A blazing-fast modern Lua linter, with Roblox-tailored lints.",
     "homepage": "https://kampfkarren.github.io/selene/",
     "license": "MPL-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Kampfkarren/selene/releases/download/0.5.2/selene.exe",
-            "hash": "4fff4e880d90417f9ebc5d3b0b9afd21e437bc25a51c6390f311402a77311db4"
+            "url": "https://github.com/Kampfkarren/selene/releases/download/0.5.3/selene.exe",
+            "hash": "2e1e2c77fb4bff25a529ca202299ad8a5bfdafa314974a155ab350b2c7dd0d9f"
         }
     },
     "bin": "selene.exe",
