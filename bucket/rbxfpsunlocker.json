@@ -26,9 +26,5 @@
             "Roblox FPS Unlocker"
         ]
     ],
-    "checkver": {
-        "url": "https://github.com/axstin/rbxfpsunlocker/releases/latest",
-        "regex": ">v((((0|[1-9][\\d]*)\\.)+)(0|[1-9][\\d]*)((-([\\dA-Za-z]+(\\.([\\dA-Za-z]+((\\+([\\dA-Za-z-]+\\.)*)(([\\dA-Za-z-]+)))?)?)?)?)?))<",
-        "replace": "${1}"
-    }
+    "checkver": "github"
 }

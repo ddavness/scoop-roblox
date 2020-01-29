@@ -11,9 +11,8 @@
     },
     "bin": "selene.exe",
     "checkver": {
-        "url": "https://github.com/Kampfkarren/selene/releases",
-        "regex": ">((((0|[1-9][\\d]*)\\.)+)(0|[1-9][\\d]*)((-([\\dA-Za-z]+(\\.([\\dA-Za-z]+((\\+([\\dA-Za-z-]+\\.)*)(([\\dA-Za-z-]+)))?)?)?)?)?))<",
-        "replace": "${1}"
+        "url": "https://github.com/Kampfkarren/selene/releases/latest",
+        "regex": "tag/([\\d.]+)"
     },
     "autoupdate": {
         "url": "https://github.com/Kampfkarren/selene/releases/download/$version/selene.exe"

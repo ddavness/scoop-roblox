@@ -10,11 +10,7 @@
         }
     },
     "bin": "rbxlx-to-rojo.exe",
-    "checkver": {
-        "url": "https://github.com/rojo-rbx/rbxlx-to-rojo/releases",
-        "regex": ">((((0|[1-9][\\d]*)\\.)+)(0|[1-9][\\d]*)((-([\\dA-Za-z]+(\\.([\\dA-Za-z]+((\\+([\\dA-Za-z-]+\\.)*)(([\\dA-Za-z-]+)))?)?)?)?)?))<",
-        "replace": "${1}"
-    },
+    "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/rojo-rbx/rbxlx-to-rojo/releases/download/v$version/rojo.exe"
     },

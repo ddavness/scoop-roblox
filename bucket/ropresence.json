@@ -17,9 +17,8 @@
         ]
     ],
     "checkver": {
-        "url": "https://github.com/ddavness/roPresence-scoop/releases",
-        "regex": ">v((((0|[1-9][\\d]*)\\.)+)(0|[1-9][\\d]*)((\\+scoop\\.\\d+)))<",
-        "replace": "${1}"
+        "url": "https://github.com/ddavness/roPresence-scoop/releases/latest",
+        "regex": "v([\\d.]+\\+scoop.\\d+)"
     },
     "autoupdate": {
         "architecture": {
