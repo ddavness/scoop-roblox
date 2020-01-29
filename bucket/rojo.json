@@ -11,9 +11,8 @@
     },
     "bin": "rojo.exe",
     "checkver": {
-        "url": "https://github.com/rojo-rbx/rojo/releases",
-        "regex": ">v((((0|[1-9][\\d]*)\\.)+)(0|[1-9][\\d]*)((-([\\dA-Za-z]+(\\.([\\dA-Za-z]+((\\+([\\dA-Za-z-]+\\.)*)(([\\dA-Za-z-]+)))?)?)?)?)?))<",
-        "replace": "${1}"
+        "url": "https://github.com/rojo-rbx/rojo/releases/latest",
+        "regex": "v([\\d.]+)"
     },
     "autoupdate": {
         "url": "https://github.com/rojo-rbx/rojo/releases/download/v$version/rojo-$version-win64.zip"
