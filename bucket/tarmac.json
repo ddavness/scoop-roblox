@@ -1,12 +1,12 @@
 {
-    "version": "0.2.0",
+    "version": "0.3.0",
     "description": "Command line tool to manage Roblox assets",
     "homepage": "https://github.com/rojo-rbx/tarmac",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/rojo-rbx/tarmac/releases/download/v0.2.0/tarmac-0.2.0-win64.zip",
-            "hash": "f57c9f815087e56021a9848429642e7681a7ca8222af35ce24584b1069db0f09"
+            "url": "https://github.com/rojo-rbx/tarmac/releases/download/v0.3.0/tarmac-0.3.0-win64.zip",
+            "hash": "00666f1d36f44a2349fcd041b8401413f234cefd2626e90bfc9b982a4e37231d"
         }
     },
     "bin": "remodel.exe",
