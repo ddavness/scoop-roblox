@@ -9,7 +9,7 @@
             "hash": "00666f1d36f44a2349fcd041b8401413f234cefd2626e90bfc9b982a4e37231d"
         }
     },
-    "bin": "remodel.exe",
+    "bin": "tarmac.exe",
     "checkver": "github",
     "autoupdate": {
         "architecture": {
