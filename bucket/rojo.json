@@ -12,7 +12,7 @@
     "bin": "rojo.exe",
     "checkver": {
         "url": "https://github.com/rojo-rbx/rojo/releases/latest",
-        "regex": "v([\\d.]+)"
+        "regex": "tag/v([\\d.]+)"
     },
     "autoupdate": {
         "url": "https://github.com/rojo-rbx/rojo/releases/download/v$version/rojo-$version-win64.zip"
