@@ -20,7 +20,9 @@
     ],
     "checkver": {
         "url": "https://github.com/Roblox/avatar-evolution/releases/latest",
-        "regex": ">v(\\d+\\.\\d+\\.\\d+\\.\\d+)<",
-        "replace": "${1}"
+        "regex": "tag/v([\\d.]+)"
+    },
+    "autoupdate": {
+        "url": "https://github.com/Roblox/avatar-evolution/releases/download/v$version/avatar-evolution-$version-windows-x64.zip"
     }
 }
