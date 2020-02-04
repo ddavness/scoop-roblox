@@ -1,5 +1,5 @@
 {
-    "version": "0.413.0.370378",
+    "version": "0.417.0.379929",
     "description": "Public beta build of the new Avatar Evolution feature.",
     "homepage": "https://roblox.github.io/avatar-evolution/",
     "license": {
@@ -8,8 +8,8 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Roblox/avatar-evolution/releases/download/v0.413.0.370378/avatar-evolution-0.413.0.370378-windows-x64.zip",
-            "hash": "566dd4e9e39cbc50b02e7d24cb79855add2b0d0a85a57d526085ad9d01145c4e"
+            "url": "https://github.com/Roblox/avatar-evolution/releases/download/v0.417.0.379929/avatar-evolution-0.417.0.379929-windows-x64.zip",
+            "hash": "fa7996adbf0fc4e1eaa2ada8c6526df7bda7ee8dee066a72fd2a794881c1e244"
         }
     },
     "shortcuts": [
