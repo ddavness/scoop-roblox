@@ -15,6 +15,10 @@
         "regex": "tag/v([\\d.]+)"
     },
     "autoupdate": {
-        "url": "https://github.com/rojo-rbx/rojo/releases/download/v$version/rojo-$version-win64.zip"
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/rojo-rbx/rojo/releases/download/v$version/rojo-$version-win64.zip"
+            }
+        }
     }
 }

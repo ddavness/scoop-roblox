@@ -15,6 +15,10 @@
         "regex": "tag/([\\d.]+)"
     },
     "autoupdate": {
-        "url": "https://github.com/Kampfkarren/selene/releases/download/$version/selene.exe"
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/Kampfkarren/selene/releases/download/$version/selene.exe"
+            }
+        }
     }
 }

@@ -12,7 +12,11 @@
     "bin": "rbxlx-to-rojo.exe",
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/rojo-rbx/rbxlx-to-rojo/releases/download/v$version/rojo.exe"
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/rojo-rbx/rbxlx-to-rojo/releases/download/v$version/rojo.exe"
+            }
+        }
     },
     "suggest": {
         "Rojo": "rojo"

@@ -23,6 +23,10 @@
         "regex": "tag/v([\\d.]+)"
     },
     "autoupdate": {
-        "url": "https://github.com/Roblox/avatar-evolution/releases/download/v$version/avatar-evolution-$version-windows-x64.zip"
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/Roblox/avatar-evolution/releases/download/v$version/avatar-evolution-$version-windows-x64.zip"
+            }
+        }
     }
 }
