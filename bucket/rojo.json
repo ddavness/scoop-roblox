@@ -5,19 +5,19 @@
     "license": "MPL-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/rojo-rbx/rojo/releases/download/v0.5.4/rojo-0.5.4-win64.zip",
+            "url": "https://github.com/Roblox/rojo/releases/download/v0.5.4/rojo-0.5.4-win64.zip",
             "hash": "cb5402629e79323417b02f5ca28539325f0fe5a21884e97e56d3fedec755a785"
         }
     },
     "bin": "rojo.exe",
     "checkver": {
-        "url": "https://github.com/rojo-rbx/rojo/releases/latest",
+        "url": "https://github.com/Roblox/rojo/releases/latest",
         "regex": "tag/v([\\d.]+)"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/rojo-rbx/rojo/releases/download/v$version/rojo-$version-win64.zip"
+                "url": "https://github.com/Roblox/rojo/releases/download/v$version/rojo-$version-win64.zip"
             }
         }
     }
