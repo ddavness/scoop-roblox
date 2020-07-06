@@ -1,12 +1,12 @@
 {
-    "version": "0.7.0",
+    "version": "0.7.1",
     "description": "Command line tool to manipulate Roblox place and asset files",
     "homepage": "https://github.com/Roblox/remodel",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Roblox/remodel/releases/download/v0.7.0/remodel-0.7.0-win64.zip",
-            "hash": "75cf505c7b7aadceac0b5c2e2b69b38bf81cc7292b0796e096560ff65eb65ecf"
+            "url": "https://github.com/Roblox/remodel/releases/download/v0.7.1/remodel-0.7.1-win64.zip",
+            "hash": "badeeeb330d7098846737eda0f1e9b2ec0eb5e6c278e8fcf55fa73781bac78ab"
         }
     },
     "bin": "remodel.exe",
