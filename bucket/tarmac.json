@@ -1,12 +1,12 @@
 {
-    "version": "0.4.0",
+    "version": "0.6.0",
     "description": "Command line tool to manage Roblox assets",
     "homepage": "https://github.com/Roblox/tarmac",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Roblox/tarmac/releases/download/v0.4.0/tarmac-win64.zip",
-            "hash": "1de18708c3ce0e9d69c906eb1171489607264f7acba5c3b1188bd6781e548ce1"
+            "url": "https://github.com/Roblox/tarmac/releases/download/v0.6.0/tarmac-0.6.0-win64.zip",
+            "hash": "d1667e6a770597f5e7db10e2dfadda98e57b00aba473afdc3efdcbb21684e6ab"
         }
     },
     "bin": "tarmac.exe",
@@ -14,7 +14,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/Roblox/tarmac/releases/download/v$version/tarmac-win64.zip"
+                "url": "https://github.com/Roblox/tarmac/releases/download/v$version/tarmac-$version-win64.zip"
             }
         }
     }
