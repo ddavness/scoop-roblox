@@ -1,12 +1,12 @@
 {
-    "version": "2.2.0",
+    "version": "2.2.1",
     "description": "A Discord Rich Presence for Roblox.",
     "homepage": "https://github.com/JiveOff/roPresence",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/JiveOff/roPresence/releases/download/2.2.0/ropresence-2.2.0-full.nupkg",
-            "hash": "1af95faf8d9570bc65315d936952eb17be13553cc8d711a7b83d78b31ddc8963"
+            "url": "https://github.com/JiveOff/roPresence/releases/download/2.2.1/ropresence-2.2.1-full.nupkg",
+            "hash": "fe1cea74c37c1d44da64b59a5a0557e7e4e970661e4d6600706560225708ae4a"
         }
     },
     "extract_dir": "lib\\net45",
