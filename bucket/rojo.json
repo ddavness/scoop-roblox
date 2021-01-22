@@ -1,12 +1,12 @@
 {
-    "version": "6.0.0",
+    "version": "6.0.1",
     "description": "A tool designed to enable Roblox developers to use professional-grade software engineering tools.",
     "homepage": "https://rojo.space/",
     "license": "MPL-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Roblox/rojo/releases/download/v6.0.0/rojo-6.0.0-win64.zip",
-            "hash": "cd075a969f3bf3c9097c6347919bc8c7b73893ae372b2530c7e1073dc167e9ce"
+            "url": "https://github.com/Roblox/rojo/releases/download/v6.0.1/rojo-6.0.1-win64.zip",
+            "hash": "2a24ffca7a234d2ec1a8b55b2eb7a7f5aa2dc22557a5c8387e662e4ddcca89ca"
         }
     },
     "bin": "rojo.exe",
