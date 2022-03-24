@@ -2,7 +2,7 @@
     "version": "0.3.1",
     "description": "A modern package manager for Roblox projects inspired by Cargo",
     "homepage": "https://github.com/UpliftGames/wally",
-    "license": "MIT",
+    "license": "MPL-2.0",
     "architecture": {
         "64bit": {
             "url": "https://github.com/UpliftGames/wally/releases/download/v0.3.1/wally-0.3.1-win64.zip",
