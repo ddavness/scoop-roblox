@@ -5,8 +5,8 @@
     "license": "MPL-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/rojo-rbx/rojo/releases/download/v6.2.0/rojo-6.2.0-win64.zip",
-            "hash": "b97d7b25919ce88e6f5b79e2539fa5c8b9c7263aed696ce9dd3d7ef2bcb304e4"
+            "url": "https://github.com/rojo-rbx/rojo/releases/download/v7.0.0/rojo-7.0.0-win64.zip",
+            "hash": "9cee282208d732edd4b80e8c7d386690729bb48ce00a152794a27be4e38b55ec"
         }
     },
     "bin": "rojo.exe",
