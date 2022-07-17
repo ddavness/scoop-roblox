@@ -1,13 +1,14 @@
-on: pull_request
-name: Pull requests
+on:
+  pull_request:
+    types: [ opened ]
+name: Pull Requests
 jobs:
   pullRequestHandler:
-    name: PullRequestHandler
-    runs-on: ubuntu-latest
+    name: Pull Request Validator
+    runs-on: windows-latest
     steps:
-    - uses: actions/checkout@master
-    - name: PullRequestHandler
-      uses: Ash258/Scoop-GithubActions@stable
+    - uses: actions/checkout@main
+    - name: Pull Request Validator
+      uses: ScoopInstaller/Scoop-GithubActions@main
       env:
-        GITH_EMAIL: david.f.s.duque@tecnico.ulisboa.pt
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

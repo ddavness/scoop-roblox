@@ -1,13 +1,15 @@
-on: issues
-name: Issues
+on:
+  issues:
+    types: [ opened, labeled ]
+name: Issue
 jobs:
   issueHandler:
-    name: IssueHandler
-    runs-on: ubuntu-latest
+    name: Issue Handler
+    runs-on: windows-latest
     steps:
-    - uses: actions/checkout@master
-    - name: IssueHandler
-      uses: Ash258/Scoop-GithubActions@stable
+    - uses: actions/checkout@main
+    - name: Issue Handler
+      uses: ScoopInstaller/Scoop-GithubActions@main
+      if: github.event.action == 'opened' || (github.event.action == 'labeled' && contains(github.event.issue.labels.*.name, 'verify'))
       env:
-        GITH_EMAIL: david.f.s.duque@tecnico.ulisboa.pt
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
