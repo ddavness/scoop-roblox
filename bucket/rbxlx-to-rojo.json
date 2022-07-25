@@ -1,12 +1,12 @@
 {
-    "version": "0.1.0",
+    "version": "1.0.1",
     "description": "Quickly convert any Roblox place file (XML only) into a Rojo file system.",
     "homepage": "https://github.com/rojo-rbx/rbxlx-to-rojo",
     "license": "MPL-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/rojo-rbx/rbxlx-to-rojo/releases/download/0.1.0/rbxlx-to-rojo.exe",
-            "hash": "791f6ae61fc41afa2eeef704c1be4b53ee1265d8732b3cee49f9880ceb92d4d5"
+            "url": "https://github.com/rojo-rbx/rbxlx-to-rojo/releases/download/1.0.1/rbxlx-to-rojo.exe",
+            "hash": "ddac1c4c100c5ce0df327a1aae345fbf421209cc8c2e1840d1eeef1b212362a8"
         }
     },
     "bin": "rbxlx-to-rojo.exe",
