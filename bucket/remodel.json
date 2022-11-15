@@ -14,7 +14,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/rojo-rbx/remodel/releases/download/v$version/remodel-$version-win64.zip"
+                "url": "https://github.com/rojo-rbx/remodel/releases/download/v$version/remodel-$version-windows-x86_64.zip"
             }
         }
     }
