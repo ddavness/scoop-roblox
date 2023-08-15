@@ -1,12 +1,12 @@
 {
-    "version": "0.10.0",
+    "version": "0.11.0",
     "description": "Command line tool to manipulate Roblox place and asset files",
     "homepage": "https://github.com/rojo-rbx/remodel",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/rojo-rbx/remodel/releases/download/v0.10.0/remodel-0.10.0-windows-x86_64.zip",
-            "hash": "734c8238a978c4f0ec0c60aa0d6eacf5b76a6c4e80052c71d5ab90464a0a4f0b"
+            "url": "https://github.com/rojo-rbx/remodel/releases/download/v0.11.0/remodel-0.11.0-windows-x86_64.zip",
+            "hash": "0432abcc6f806c7c50ac01e0bb5e5fefcdef34a3ef200ed92b2e768204f1a64c"
         }
     },
     "bin": "remodel.exe",
