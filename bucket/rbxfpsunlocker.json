@@ -1,12 +1,12 @@
 {
-    "version": "5.1",
+    "version": "5.2",
     "description": "A small tool that removes Roblox's default 60 FPS cap.",
     "homepage": "https://github.com/axstin/rbxfpsunlocker",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/axstin/rbxfpsunlocker/releases/download/v5.1/rbxfpsunlocker-x64.zip",
-            "hash": "1c21334738e47b17d6d81a600ca37e99402d78db56ce1f9a911732e3ac966cb9"
+            "url": "https://github.com/axstin/rbxfpsunlocker/releases/download/v5.2/rbxfpsunlocker-x64.zip",
+            "hash": "095169dc00edaa7ed84c32041aa5e6d5c7f7163b5a1090474ee3fe440d213fa6"
         }
     },
     "bin": [
